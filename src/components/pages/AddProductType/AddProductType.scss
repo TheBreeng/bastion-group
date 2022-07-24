@@ -1,0 +1,28 @@
+.AddProductType {
+    align-items: flex-end !important;
+    padding: 100px 0;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            margin-bottom: 20px;
+        }
+
+        input[type='text'] {
+            width: 350px;
+            padding: 13px;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 10px;
+            align-self: flex-end;
+        }
+
+        &:last-child {
+            margin-left: 50px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.Home {
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    padding: 110px 165px;
+
+    h1 {
+        margin: 30px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+
+        & > div {
+            max-width: 1120px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

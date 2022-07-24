@@ -1,0 +1,20 @@
+.GOSTItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    font-size: 12px;
+    margin: 5px 3px;
+    background: #f9f9f9;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.gost-selected {
+    color: #fff;
+    background: #c93e33;
+}

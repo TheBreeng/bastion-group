@@ -1,0 +1,90 @@
+.Filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 270px;
+    background: #fff;
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__tittle {
+        width: 100%;
+        border: 1px solid #e6e6e6;
+        padding: 20px 20px;
+
+        span {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    }
+
+    &__price {
+        padding: 20px 20px;
+        border: 1px solid #e6e6e6;
+
+        .price-inputs {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 20px;
+            position: relative;
+
+            &::after,
+            &::before {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #b3b3b3;
+            }
+
+            &::before {
+                content: 'от';
+                left: 15px;
+            }
+            &::after {
+                content: 'до';
+                right: 78px;
+            }
+
+            input {
+                border: 1px solid #e6e6e6;
+                border-radius: 2px;
+                height: 35px;
+                width: 110px;
+                text-align: center;
+
+                &:first-child {
+                    margin-right: 13px;
+                }
+            }
+        }
+        .price-slider {
+            margin-top: 20px;
+        }
+    }
+
+    &__types {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        width: 100%;
+        border: 1px solid #e6e6e6;
+
+        span {
+            margin-bottom: 20px;
+        }
+
+        label {
+            cursor: pointer;
+            user-select: none;
+
+            input {
+                margin: 10px;
+            }
+        }
+    }
+}

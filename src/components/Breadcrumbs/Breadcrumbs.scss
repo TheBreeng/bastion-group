@@ -1,0 +1,18 @@
+.Breadcrumbs {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #b3b3b3;
+    margin: 0 165px;
+
+    img {
+        margin: 0 10px;
+    }
+
+    .current-page {
+        color: #000;
+        font-weight: 500;
+    }
+}

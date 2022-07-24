@@ -1,0 +1,28 @@
+.AddProduct {
+    form {
+        display: flex;
+        flex-direction: column;
+
+        select {
+            padding: 13px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+
+        input[type='text'] {
+            width: 350px;
+            padding: 13px;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 10px;
+            align-self: flex-end;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.ProductCount {
+    $borderColor: #e6e6e6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 110px;
+    border: 1px solid $borderColor;
+    border-radius: 2px;
+
+    input {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .increment,
+    .decrement {
+        padding: 10px;
+        user-select: none;
+
+        &:hover {
+            cursor: pointer;
+            background: $borderColor;
+        }
+    }
+
+    .increment {
+        border-right: 1px solid $borderColor;
+    }
+
+    .decrement {
+        border-left: 1px solid $borderColor;
+    }
+}

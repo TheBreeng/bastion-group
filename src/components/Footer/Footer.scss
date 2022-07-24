@@ -1,0 +1,47 @@
+.Footer {
+    .contact-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(50%);
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: #fff;
+            width: 1100px;
+            height: 135px;
+            border-radius: 8px;
+            box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+
+            input {
+                padding: 10px 0;
+                border-bottom: 1px solid #e5e5e5;
+                width: 300px;
+                margin-bottom: 40px;
+            }
+
+            .big-btn {
+                width: 220px;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            span {
+                font-size: 12px;
+                color: #c2c8d1;
+
+                a {
+                    color: #998f8c;
+                }
+            }
+        }
+    }
+
+    .contact-us + div {
+        height: 220px;
+        background: #222628;
+    }
+}
