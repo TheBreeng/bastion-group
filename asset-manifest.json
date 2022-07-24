@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/bastion-group/static/css/main.79adec10.css",
+    "main.js": "/bastion-group/static/js/main.e3ced344.js",
+    "static/media/header__logo.png": "/bastion-group/static/media/header__logo.7f9e04819eac5dfc7a90.png",
+    "static/media/addToCart.svg": "/bastion-group/static/media/addToCart.77d1deea1b74e8e3cefb12972ce4b581.svg",
+    "static/media/filters.svg": "/bastion-group/static/media/filters.3fc81ee09c0abf4f42a963cb388b0d1f.svg",
+    "static/media/cart.svg": "/bastion-group/static/media/cart.28e8ae09e2cd014bb882a7bc17f07fe3.svg",
+    "static/media/cart2.svg": "/bastion-group/static/media/cart2.21a92a804ebfbc934c23cc1c4f1dce86.svg",
+    "static/media/local-two.svg": "/bastion-group/static/media/local-two.e7fd11baabff6200dda4034d7e969f51.svg",
+    "static/media/catalog.svg": "/bastion-group/static/media/catalog.e750db55812da52e9a8860b3872b2f62.svg",
+    "static/media/userPhone.svg": "/bastion-group/static/media/userPhone.5c650284438cddda0a5ba14cfd7e6e32.svg",
+    "static/media/phone.svg": "/bastion-group/static/media/phone.a77c2aecb8e417537071322aab4f2a0c.svg",
+    "static/media/star.svg": "/bastion-group/static/media/star.c03fc4bfa91f3c7d2268916745ec1b81.svg",
+    "static/media/@.svg": "/bastion-group/static/media/@.ef1c40177277f413a0c303ac11facec6.svg",
+    "static/media/alert.svg": "/bastion-group/static/media/alert.6484a23dfe2fe8ceb1b182f546ea0d22.svg",
+    "static/media/file.svg": "/bastion-group/static/media/file.7124ffbde34b031f46ce2e2d30cb5efa.svg",
+    "static/media/briefcase.svg": "/bastion-group/static/media/briefcase.7959d1da5803620b83357f3b1cfeb391.svg",
+    "static/media/mail.svg": "/bastion-group/static/media/mail.93199a4a489546d05aa6350a3db75dfb.svg",
+    "static/media/search.svg": "/bastion-group/static/media/search.38f2adff3c5889de6b3743ac36dc4683.svg",
+    "static/media/arrow.svg": "/bastion-group/static/media/arrow.b6774b1d696544dc2d75b0149cc21ef2.svg",
+    "static/media/user.svg": "/bastion-group/static/media/user.dcd7cc720f55a4f9f5b63d434ea630ce.svg",
+    "static/media/trash.svg": "/bastion-group/static/media/trash.465ea3c9d628874a83528f86d53bbd5a.svg",
+    "static/media/arrow2.svg": "/bastion-group/static/media/arrow2.2fedbff2994787c8a766f33dd8d173f6.svg",
+    "index.html": "/bastion-group/index.html",
+    "static/media/arrow3.svg": "/bastion-group/static/media/arrow3.ceb935bae64a0e935b0812accdbe2f0d.svg",
+    "main.79adec10.css.map": "/bastion-group/static/css/main.79adec10.css.map",
+    "main.e3ced344.js.map": "/bastion-group/static/js/main.e3ced344.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79adec10.css",
+    "static/js/main.e3ced344.js"
+  ]
+}
